@@ -45,4 +45,23 @@ https://www.voxpublic.org/ et les classer dans un array de hashes. Sans oubier l
 		
 <h2> Les participants sont : </h2>
 
+	*Membres du Groupe 3 qui ont participé au travail de ce projet:*
+Tojo Miadamalala
+
+Mickaël Max Rkl
+
+Zo Rajaoharimanana
+
+Herisoa Nomenjanahary
+
+Maminiana Mendrika
+
+Avec les profils GitHub respectés:
+
+#https://github.com/Miadamalala
+#https://github.com/MikeMax5
+#https://github.com/Ismael148
+#https://github.com/Herisoa2020
+#https://github.com/Mendrika-20
+
 # projet-6
