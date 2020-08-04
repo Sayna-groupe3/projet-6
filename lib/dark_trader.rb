@@ -9,7 +9,7 @@ require 'pry'
 
 #Recupération URL
 def get_page
-  page = Nokogiri::HTML(open("https://coinmarketcap.com"))
+  page = Nokogiri::HTML(URI.open("https://coinmarketcap.com"))
   return page
 end
 
