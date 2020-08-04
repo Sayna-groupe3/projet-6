@@ -9,7 +9,7 @@ require 'open-uri'
 
 #Récupération de l'URL
 def depute_url
-  page = Nokogiri::HTML(open("https://www.voxpublic.org/"))
+  page = Nokogiri::HTML(URI.open("https://www.voxpublic.org/"))
   return page
 end
 
