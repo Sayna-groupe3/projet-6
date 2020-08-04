@@ -8,7 +8,7 @@ require 'open-uri'
 
 #Recupération de l'e-mail d'une mairie du Val d'Oise
 def get_townhall_email(townhall_url)
-  page = Nokogiri::HTML(open(townhall_url)) 
+  page = Nokogiri::HTML(URI.open(townhall_url)) 
   email_array = []
 
   email = page.xpath('//*[contains(text(), "@")]').text
@@ -22,7 +22,7 @@ end
 
 #Recupération des URLs de chaque ville du Val d'Oise
 def get_townhall_urls
-  page = Nokogiri::HTML(open("http://annuaire-des-mairies.com/val-d-oise.html"))
+  page = Nokogiri::HTML(URI.open("http://annuaire-des-mairies.com/val-d-oise.html"))
   url_array = []
 
   urls = page.xpath('//*[@class="lientxt"]/@href') 
